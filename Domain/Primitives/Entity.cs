@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Primitives
 {
-    public class Entity:IEquatable<Entity>
+    public abstract class Entity:IEquatable<Entity>
     {
         public Guid Id { get; private init; }
         public Entity(Guid id)
