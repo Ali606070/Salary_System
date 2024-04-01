@@ -10,6 +10,7 @@
     <Folder Include="Entities\" />
     <Folder Include="Abstraction\" />
     <Folder Include="Errors\" />
+    <Folder Include="ValueObjects\" />
   </ItemGroup>
 
 </Project>
