@@ -9,6 +9,10 @@ namespace Domain.Primitives
     public abstract class Entity:IEquatable<Entity>
     {
         public Guid Id { get; private init; }
+        protected Entity()
+        {
+
+        }
         public Entity(Guid id)
         {
             Id = id;
